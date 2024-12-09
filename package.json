@@ -1,0 +1,26 @@
+{
+  "name": "lista-contatos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "init": "concurrently \"node server.js\" \"expo start\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "expo": "~52.0.17",
+    "expo-status-bar": "~2.0.0",
+    "express": "^4.21.2",
+    "react": "18.3.1",
+    "react-native": "0.76.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "concurrently": "^9.1.0"
+  },
+  "private": true,
+  "type":"module"
+}
